@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GamerHub - Your Ultimate Gaming Portal</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #1a1a1a; color: #fff; }
+        header { background: linear-gradient(90deg, #ff6b6b, #4ecdc4); padding: 20px; text-align: center; }
+        nav { background: #333; padding: 10px; text-align: center; }
+        nav a { color: #fff; margin: 0 15px; text-decoration: none; }
+        .hero { background: url('https://via.placeholder.com/1920x400/333/fff?text=Gaming+Hero') no-repeat center/cover; height: 400px; display: flex; align-items: center; justify-content: center; text-align: center; }
+        .hero h1 { font-size: 3em; margin: 0; }
+        .section { padding: 40px; text-align: center; }
+        .games-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; padding: 20px; }
+        .game-card { background: #333; padding: 20px; border-radius: 10px; }
+        .game-card a { color: #4ecdc4; text-decoration: none; font-weight: bold; }
+        .game-card a:hover { text-decoration: underline; }
+        footer { background: #333; padding: 10px; text-align: center; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to GamerHub</h1>
+        <p>Your portal to epic games, news, and community!</p>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#games">Games</a>
+        <a href="#news">News</a>
+        <a href="#community">Community</a>
+    </nav>
+    <section id="home" class="hero">
+        <h1>Level Up Your Gaming Experience</h1>
+    </section>
+    <section id="games" class="section">
+        <h2>Featured Games</h2>
+        <div class="games-grid">
+            <div class="game-card">
+                <h3>Fortnite</h3>
+                <p>Battle Royale action awaits!</p>
+            </div>
+            <div class="game-card">
+                <h3>Minecraft</h3>
+                <p>Build your world.</p>
+            </div>
+            <div class="game-card">
+                <h3>Among Us</h3>
+                <p>Sus among the crewmates.</p>
+            </div>
+            <div class="game-card">
+                <h3>Rolling Ball Collector</h3>
+                <p>2D Unity adventure: Roll, collect coins, avoid obstacles!</p>
+                <a href="https://ajayc44.github.io/Rolling-Game/" target="_blank">Play Now (Unity WebGL)</a>
+            </div>
+        </div>
+    </section>
+    <section id="news" class="section">
+        <h2>Latest News</h2>
+        <p>New updates on Cyberpunk 2077 DLC dropping soon!</p>
+    </section>
+    <section id="community" class="section">
+        <h2>Join the Community</h2>
+        <p>Connect with fellow gamers on Discord.</p>
+    </section>
+    <footer>
+        <p>&copy; 2025 GamerHub. All rights reserved.</p>
+    </footer>
+</body>
+</html>
